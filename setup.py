@@ -5,7 +5,7 @@ exec(open('redminelib/version.py').read())
 setup(
     name='python-redmine',
     version=globals()['__version__'],
-    packages=find_packages(exclude=('tests', 'tests.*')),
+    packages=find_packages(exclude=('tests', 'tests. ')),
     url='https://github.com/maxtepkeev/python-redmine',
     project_urls={
         'Documentation': 'https://python-redmine.com',
@@ -40,3 +40,4 @@ setup(
         'Programming Language :: Python :: Implementation :: PyPy'
     ],
 )
+ 
